@@ -1,0 +1,74 @@
+*{
+	MARGIN: 0;
+	PADDING: 0;
+	BOX-SIZING: BORDERBOX;
+}
+
+body{
+	background-image: url("../img/fundo.jpg");
+	background-size: cover;
+	font-family: arial;
+	height: 100vh;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 14px;
+	}
+}
+
+header{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu{
+	background-color: white;
+	position: fixed;
+	width: 100vw;
+	top: 0;
+}
+
+.menu a{
+	display: block;
+	padding: 10px 20px;
+}
+
+.menu a:hover{
+	background-color: aquamarine;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li{
+	list-style: none
+}
+
+a{
+	color: teal;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title{
+	color: whitesmoke;
+	text-align: center;
+}
+
+.site-subtitle{
+	font-style: italic;
+}
+
+.img-portfolio{
+	height: 180px;
+	width: 180px;
+}
