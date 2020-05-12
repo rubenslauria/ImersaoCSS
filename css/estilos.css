@@ -1,0 +1,38 @@
+body{
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/07/65/755812093598c83.jpg");
+  background-size: cover;
+  font-family: arial;
+  height: 100hv;
+  
+}
+
+.menu{
+  background-color: white
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle{
+  font-style: italic;
+}
